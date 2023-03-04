@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <header>
+        <h1>Formulário</h1>
+    </header>
+    <section id="contato">
+        <form>
+            <div class="formcampo">
+                <label for="nome">Nome Completo</label>
+                <input type="text" name="nome" id="nome">
+            </div>
+            <div class="formcampo">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="formcampo">
+                <label for="tel">Telefone</label>
+                <input type="tel" name="tel" id="tel">
+            </div>
+            <div class="formcampo">
+                <label for="cpf">CPF</label>
+                <input type="text" name="cpf" id="cpf">
+            </div>
+            <div class="formcampo">
+                <label for="endereco">Endereço Completo</label>
+                <input type="text" name="endereco" id="endereco">
+            </div>
+            <div class="formcampo">
+                <label for="cep">CEP.:</label>
+                <input type="text" name="cep" id="cep">
+            </div>
+            <div class="formcampo">
+                <button type="submit">Enviar formulário</button>
+            </div>
+        </form>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="./scripts/jquery.mask.min.js"></script>
+    <script src="./scripts/jquery.validate.min.js"></script>
+    <script src="./scripts/main.js"></script>
+    
+</body>
+</html>
